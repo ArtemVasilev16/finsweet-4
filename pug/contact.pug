@@ -1,0 +1,22 @@
+extends components/_layout-contact.pug
+
+block content 
+    section.find
+        h2.find-title Get in touch with our experts
+        div.find-area
+            div.find-send
+                input.find-send__input(type="text" value="Your full Name")
+                input.find-send__input(type="text" value="Your Email")
+                input.find-send__input(type="text" value="Select service type")
+                input.find-send__input(type="text" value="Message")
+                button.find-send-button Send message
+            div.find-data
+                h4.find-data-title Address
+                p.find-data-subtitle NH 234   Public Square San Francisco  65368
+                h4.find-data-title Contact  Details
+                p.find-data-subtitle 1800 265 24 52 <br>Finsweet@gmail.com
+                h4.find-data-title Opening Hours
+                p.find-data-subtitle Monday to Friday 9:00 AM to  10:00  AM
+        div.find-images
+            img.find-images__map(src="/images/map.png", alt="")
+            img.find-images__bottom(src="/images/contact-image.png", alt="")

@@ -1,0 +1,184 @@
+extends components/_layout.pug
+
+block content-first 
+    main.welcome 
+        div.welcome-info
+            h1.welcome-title Get your vehicle service done online at one place
+            button.welcome-button Book a service
+            div.welcome-open
+                img.welcome-open__clock(src="/images/clock.png", alt="Циферблят")
+                div.welcome-open-text
+                    p.welcome-open-text__title We are open 
+                    p.welcome-open-text__subtitle Monday to Friday 9:00 AM to  10:00  AM
+        div.welcome-banner
+            img.welcome-banner__image(src="/images/slesaruga.png", alt="Работающий мужик")
+            div.welcome-banner-service 
+                img.welcome-banner-service__image(src="/images/circle.png", alt="24 часа")
+                h4.welcome-banner-service__text Quick service
+            div.welcome-banner-rating
+                div.welcome-banner-rating__text
+                    p.welcome-banner-rating__title 4.5/5
+                    p.welcome-banner-rating-number__subtitle Rating
+                img.welcome-banner-rating__stars(src="/images/stars.png", alt="Звёзды")
+
+    section.attitude
+        div.attitude-content
+            h2.attitude-title We are taking car servicing seriously
+            div.attitude-service
+                img.attitude-service-image(src="/images/icon-service.png", alt="Иконка шестеренки")
+                div.attitude-service-text
+                    h4.attitude-service-text__title Convenient service
+                    p.attitude-service-text__subtitle Through True Rich Attended does no end it his mother since real had half every him.
+            div.attitude-service
+                img.attitude-service-image(src="/images/icon-mechanics.png", alt="Иконка механика")
+                div.attitude-service-text 
+                    h4.attitude-service-text__title Expert mechanics
+                    p.attitude-service-text__subtitle Through True Rich Attended does no end it his mother since real had half every him.
+            div.attitude-service
+                img.attitude-service-image(src="/images/icon-pricing.png", alt="Иконка доллара")
+                div.attitude-service-text 
+                    h4.attitude-service-text__title Transparent pricing
+                    p.attitude-service-text__subtitle Through True Rich Attended does no end it his mother since real had half every him.
+            div.attitude-more
+                p.attitude-more__text Know more about us
+                img.attitude-more__arrow(src="/images/arrow.png", alt="") 
+        div.attitude-area
+            h3.attitude-area__title Get a quote for the car service
+            div.attitude-area-area
+                textarea.attitude-area-area__textarea(name="text", cols="80", rows="4") Enter your locations
+                textarea.attitude-area-area__textarea(name="text", cols="80", rows="4") Enter your locations
+                textarea.attitude-area-area__textarea(name="text", cols="80", rows="4") Enter your locations
+                textarea.attitude-area-area__textarea(name="text", cols="80", rows="4") Enter your locations
+            button.attitude-area__button Get your quote
+
+    section.process 
+        div.process-learn
+            h2.process-learn__title We follow a clear process to help you out.
+            p.process-learn__subtitle Through True Rich Attended does no end it his mother since real had half every him case in packages enquire
+            button.process-learn__button Learn more
+        div.process-steps
+            div.process-steps-name
+                p.process-steps-name__number 01
+                h3.process-steps-name__name Get a Quote
+            p.process-steps__discription Through True Rich Attended does no end it his mother since real had half every.
+            div.process-steps-name
+                p.process-steps-name__number 02
+                h3.process-steps-name__name Book an Appointment
+            p.process-steps__discription Through True Rich Attended does no end it his mother since real had half ever
+            div.process-steps-name
+                p.process-steps-name__number 03
+                h3.process-steps-name__name Get your Service Done
+            p.process-steps__discription Through True Rich Attended does no end it his mother since real had half every.
+
+    section.service 
+        h4.service-uptitle What we Offer 
+        h2.service-title We offer full service auto repair &amp; maintenance
+        div.service-content 
+            div.service-card
+                img.service-card__icon(src="/images/icon-diagnostics.png", alt="Иконка кузова")
+                h4.service-card__name Diagnostics 
+            div.service-card 
+                img.service-card__icon(src="/images/icon-engine.png", alt="Иконка двигателя")
+                h4.service-card__name Engine Repair
+            div.service-card 
+                img.service-card__icon(src="/images/icon-wheel.png", alt="Иконка колеса")
+                h4.service-card__name Wheel Repair
+            div.service-card 
+                img.service-card__icon(src="/images/icon-oil.png", alt="Иконка канистры")
+                h4.service-card__name Oil Filter
+        div.service-content
+            div.service-card
+                img.service-card__icon(src="/images/icon-body.png", alt="Иконка кузова помощнее")
+                h4.service-card__name Body Work 
+            div.service-card 
+                img.service-card__icon(src="/images/icon-batteries.png", alt="Иконка аккамулятор")
+                h4.service-card__name Batteries
+            div.service-card 
+                img.service-card__icon(src="/images/icon-claim.png", alt="Иконка защиты")
+                h4.service-card__name Insurance Claim
+            div.service-card 
+                img.service-card__icon(src="/images/icon-service.png", alt="Иконка шестеренки")
+                h4.service-card__name Custom Service
+                div.service-card-learn 
+                    p.service-card-learn__text Learn about services
+                    img.service-card-learn__arrow(src="/images/arrow.png", alt="Стрелочка вправо")
+
+block content-second
+    section.indicators 
+        div.indicators-point
+            h2.indicators-point__title 20+
+            p.indicators-point__subtitle Proffesional
+        div.indicators-point
+            h2.indicators-point__title 10+
+            p.indicators-point__subtitle Years Eperience
+        div.indicators-point
+            h2.indicators-point__title 12K+
+            p.indicators-point__subtitle Service Closed
+        div.indicators-point
+            h2.indicators-point__title 100%
+            p.indicators-point__subtitle Customer Satisfaction
+
+    section.brands 
+        h2.brands-title Brands we Serve
+        div.brands-logo 
+            img.brands-logo__image(src="/images/logoipsum-1.png", alt="Логотип")
+            img.brands-logo__image(src="/images/logoipsum-2.png", alt="Логотип")
+            img.brands-logo__image(src="/images/logoipsum-3.png", alt="Логотип")
+            img.brands-logo__image(src="/images/logoipsum-4.png", alt="Логотип")
+            img.brands-logo__image(src="/images/logoipsum-5.png", alt="Логотип")
+        div.brands-logo 
+            img.brands-logo__image(src="/images/logoipsum-1.png", alt="Логотип")
+            img.brands-logo__image(src="/images/logoipsum-2.png", alt="Логотип")
+            img.brands-logo__image(src="/images/logoipsum-3.png", alt="Логотип")
+            img.brands-logo__image(src="/images/logoipsum-4.png", alt="Логотип")
+            img.brands-logo__image(src="/images/logoipsum-5.png", alt="Логотип")
+
+    section.comments 
+        h2.comments-title Our customers say the nicest things about our service
+        div.comments-card
+            div.comments-card-shell
+                div.comments-card-data
+                    img.comments-card-data__avatar(src="/images/avatar-jonathan.png", alt="")
+                    div.comments-card-text
+                        h4.comments-card-text__name Jonathan Vallem
+                        p.comments-card-text__city New york
+                p.comments-card-shell__review I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car in a short comprehensive look on all the working
+            div.comments-card-shell
+                div.comments-card-data
+                    img.comments-card-data__avatar(src="/images/avatar-smith.jpg", alt="")
+                    div.comments-card-text
+                        h4.comments-card-text__name Smith Johnson
+                        p.comments-card-text__city New york
+                p.comments-card-shell__review I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car in a short comprehensive look on all the working
+        div.comments-arrow 
+            img.comments-arrow__image.comments-arrow__left(src="/images/arrow.png", alt="", width="35px", height="12px")
+            img.comments-arrow__image(src="/images/arrow.png", alt="", width="35px", height="12px")
+
+    section.questions 
+        h2.questions-title Frequently Asked Questions
+        div.questions-answers
+            div.questions-answers-question
+                h4.questions-answers-question__subtitle How long should a car repair take?
+                img.questions-answers-question__icon(src="/images/plus.png", alt="")
+            p
+        div.questions-answers    
+            div.questions-answers-question
+                h4.questions-answers-question__subtitle How do I schedule my car's appointment ?
+                img.questions-answers-question__icon(src="/images/plus.png", alt="")
+            p
+        div.questions-answers
+            div.questions-answers-question
+                h4.questions-answers-question__subtitle What are the repair services provided?
+                img.questions-answers-question__icon(src="/images/plus.png", alt="")
+            p
+        div.questions-answers
+            div.questions-answers-question
+                h4.questions-answers-question__subtitle How do I find auto body shops near me?
+                img.questions-answers-question__icon(src="/images/plus.png", alt="")
+            p
+        div.questions-answers
+            div.questions-answers-question
+                h4.questions-answers-question__subtitle Genuine spare parts during car repair?
+                img.questions-answers-question__icon(src="/images/plus.png", alt="")
+            p
+

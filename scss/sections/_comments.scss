@@ -1,0 +1,87 @@
+@import "../veriables";
+
+.comments {
+    text-align: center;
+    padding: 128px 320px;
+    background: #F2F2F2;    
+
+    &-title {
+        font-weight: $font-weight-bold;
+        font-size: $font-size-h3;
+        line-height: 140%;
+        max-width: 909px;
+        margin: 0 auto;
+        padding-bottom: 94px;
+    }
+
+    &-arrow {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 23px;
+        margin-top: 23px;
+
+        &__image {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            border-radius: 50%;
+            padding: 24px 13px;
+            margin-left: 24px;
+        }
+
+        &__left {
+            transform: rotate(180deg);
+        }
+
+        &__image:hover {
+            background: grey;
+            transform: scale(1.2);
+        }
+    }
+
+    &-card {
+        display: flex;
+        justify-content: space-between;
+
+        &-shell {
+            background: $color-white;
+            padding: 72px 49px;
+            margin: 0px 24px;
+
+            &__review {
+                font-weight: $font-weight-semibold;
+                font-size: 24px;
+                line-height: 36px;
+                text-align: left;
+            }
+        }
+
+        &-data {
+            display: flex;
+            align-items: center;
+            text-align: left;
+            padding-bottom: 24px;
+
+            &__avatar {
+                padding-right: 16px;
+            }
+        }
+
+        &-text {
+
+            &__name {
+                font-weight: $font-weight-semibold;
+                font-size: 24px;
+                line-height: 36px;
+            }
+
+            &__city {
+                font-weight: $font-weight-semibold;
+                font-size: $font-size-verysmall;
+                line-height: 28px;
+                color: #939191;
+            }
+        }
+    }
+}

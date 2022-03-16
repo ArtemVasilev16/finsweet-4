@@ -1,0 +1,78 @@
+@import "../veriables";
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 128px 0px;
+    background-color: #F2F2F2;
+    position: relative;
+
+    &-uptitle {
+        font-weight: $font-weight-semibold;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    &-title {
+        font-weight: $font-weight-extrabold;
+        font-size: $font-size-h2;
+        line-height: 76px;
+        max-width: 908px;
+        text-align: center;
+        padding-bottom: 64px;
+    }
+
+    &-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    &-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 316px;
+        height: 232px;
+        background: white;
+        margin-right: 8px;
+        margin-bottom: 8px;
+        position: relative;
+
+        &__icon {
+            width: 45px;
+            height: 45px;
+            padding-bottom: 16px;
+        }
+
+        &-name {
+            font-weight: $font-weight-semibold;
+            font-size: 24px;
+            line-height: 36px;
+        }
+
+        &-learn {
+            display: flex;
+            align-items: center;
+            position: absolute;
+            right: 1px;
+            top: 250px;
+
+            &__text {
+                padding-right: 16px;
+            }
+        }
+    }
+    
+    &-card:hover {
+        background-color: #FF6433;
+        color: white;
+        transition: color 0.5s;
+    }  
+}

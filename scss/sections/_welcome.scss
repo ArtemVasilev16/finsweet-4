@@ -1,0 +1,114 @@
+@import "../veriables";
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 128px;
+
+    &-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    &-title {
+        font-weight: $font-weight-extrabold;
+        font-size: $font-size-h1;
+        line-height: 84px;
+        max-width: 624px;
+        padding-bottom: 32px;
+    }
+
+    &-button {
+        @include button-orange
+    }
+
+    &-open {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 48px;
+
+        &__clock {
+            padding-right: 13px;
+        }
+
+        &-text {
+            // Не понял что сюда нужно писать и нужно ли вообще вызывать этот класс
+            &__title {
+                color: #939191;
+                font-weight: $font-weight-medium;
+                font-size: $font-size-verysmall;
+            }
+
+            &__subtitle {
+                font-weight: $font-weight-semibold;
+                font-size: 18px;
+            }
+        }
+    }
+
+    &-banner {
+        padding-left: 85px;
+        position: relative;
+
+        &__image {
+            max-width: 605px;
+            max-height: 632px;
+            width: 100%;
+            height: 100%;
+            
+        }
+
+        &-service {
+            display: flex;
+            align-items: center;
+            border: 12px solid rgba(225, 225, 225, 0.3);
+            border-radius: 59px;
+            background: linear-gradient(138.85deg, #FFFFFF -38.72%, #FFFFFF 153.95%);
+            padding: 15px 0px 15px 13px;
+            max-width: 260px;
+            width: 100%;
+            position: absolute;
+            top: 60px;
+            left: 40px;
+
+
+            &__text {
+                font-weight: $font-weight-semibold;
+                font-size: 24px;
+                line-height: 36px;
+                padding: 14px;
+            }
+        }
+
+        &-rating {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            border: 12px solid rgba(225, 225, 225, 0.3);
+            border-radius: 59px;
+            background-color: $color-white;
+            padding: 15px 30px 15px 20px;
+            max-width: 260px;
+            width: 100%;
+            position: absolute;
+            top: 450px;
+            right: -40px;
+            box-shadow: 0px 28px 118px rgba(109, 108, 115, 0.12);
+
+            &__text {
+                padding-right: 15px;
+            }
+
+            &__title {
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 36px;
+            }
+        }
+    }
+}

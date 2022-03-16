@@ -1,0 +1,50 @@
+@import "../veriables";
+
+.connect {
+    background-color: $color-black;
+    color: $color-white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 128px 0px 128px 160px;
+
+    &-social {
+        display: flex;
+        flex-direction: column;
+        padding-right: 193px;
+        padding-left: 150px;
+
+        &__title {
+            font-weight: $font-weight-bold;
+            font-size: $font-size-h3;
+            line-height: 140%;
+            max-width: 463px;
+            padding-bottom: 64px;
+        }
+
+        &__logo {
+            padding-right: 23px;
+        }
+    }
+    
+    &-info {
+        justify-content: center;
+
+        &-detals {
+
+            &__title {
+                opacity: 0.6;
+                padding: 32px 0 8px 0;
+                font-weight: $font-weight-semibold;
+                font-size: 18px;
+            }
+
+            &__subtitle {
+                font-weight: $font-weight-semibold;
+                font-size: 24px;
+                line-height: 36px;
+            }
+        }
+    }
+}

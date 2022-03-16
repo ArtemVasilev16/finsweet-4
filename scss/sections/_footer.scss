@@ -1,0 +1,31 @@
+@import "../veriables";
+
+.footer {
+    background-color: $color-black;
+    color: $color-white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 65px 0;
+
+    &-image {
+        padding-right: 312px;
+    }
+
+    &-list {
+        display: flex;
+        flex-direction: row;
+
+        &__element {
+            padding-right: 36px;
+            font-weight: $font-weight-semibold;
+            font-size: $font-size-verysmall;
+        }
+    }
+
+    &-copyright {
+        padding-left: 206px;
+        color: #939191;
+    }
+}

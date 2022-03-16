@@ -1,0 +1,84 @@
+@import "../veriables";
+
+.buy {
+    background: #F5F5F5;
+    display: flex;
+    padding: 128px 320px;
+    justify-content: center;
+
+    &-poster {
+        padding: 32px;
+        background: $color-white;
+
+        &__image {
+            max-width: 473px;
+            width: 100%;
+            padding-bottom: 32px;
+        }
+
+        &-alt {
+            font-weight: $font-weight-semibold;
+            font-size: 16px;
+            line-height: 28px;
+        }
+
+        &-title {
+            font-weight: $font-weight-semibold;
+            font-size: 38px;
+            line-height: 140%;
+            max-width: 466px;
+            padding: 16px 0px;
+        }
+
+        &-subtitle {
+            font-weight: $font-weight-semibold;
+            font-size: 16px;
+            line-height: 28px;
+            max-width: 473px;
+        }
+
+        &-arrow {
+            display: flex;
+            align-items: center;
+            padding-top: 32px;
+
+            &__text {
+                padding-right: 16px;
+            }
+        }
+    }
+
+    &-suggestions {
+        display: flex;
+        flex-direction: column;
+        padding-left: 32px;
+
+        &-element {
+            display: flex;
+            align-items: center;
+            padding-top: 32px;
+
+            &__image {
+                padding-right: 24px;
+            }
+        }
+
+        &-text {
+
+            &__title {
+                font-weight: bold;
+                font-size: 32px;
+                line-height: 48px;
+                padding-bottom: 4px;
+                max-width: 478px;
+            }
+
+            &__posted {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 28px;
+                opacity: 0.6;
+            }
+        }
+    }
+}

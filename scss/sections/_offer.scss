@@ -1,0 +1,37 @@
+@import "../veriables";
+
+.offer {
+    display: flex;
+    flex-direction: column;
+    padding: 128px 320px;
+    text-align: center;
+
+    &-row {
+        display: flex;
+        text-align: left;
+    }
+
+    &-card-alt {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        color: #939191;
+        padding-top: 24px;
+        padding-bottom: 16px;
+    }
+
+    &-card-title {
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    &-card-text {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        padding-top: 16px;
+        max-width: 405px;
+        padding-bottom: 64px;
+    }
+}

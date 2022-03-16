@@ -1,0 +1,69 @@
+@import "../veriables";
+
+.final {
+    text-align: center;
+
+    &-blog {
+        padding: 0px 470px 0px 530px;
+        text-align: left;
+    
+        &-uptitle {
+            font-weight: $font-weight-semibold;
+            font-size: $font-size-verysmall;
+            line-height: 28px;
+            color: #939191;
+            padding-top: 80px;
+            padding-bottom: 16px;
+        }
+
+        &-title {
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 140%;
+            padding-bottom: 16px;
+        }
+
+        &-second {
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 140%;
+        }
+
+        &-third {
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 48px;
+        }
+
+        &-text {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 28px;
+            opacity: 0.6;
+            padding-bottom: 24px;
+        }
+
+        &-span {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 175%;
+            padding-left: 34px;
+            opacity: 0.6;
+            border-left: solid 1px #1E1B1B;
+            margin-bottom: 24px;
+        }
+
+        &-road {
+            padding-top: 56px;
+            padding-bottom: 80px;
+            max-width: 896px;
+            width: 100%;
+        }
+
+        &-car {
+            max-width: 1280px;
+            width: 100%;
+            padding: 40px 0px;
+        }
+    }
+}

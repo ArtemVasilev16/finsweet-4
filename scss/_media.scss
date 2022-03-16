@@ -1,0 +1,407 @@
+@media screen and (max-width: 1919px) {
+    .contact {
+        display: none;
+    }
+
+    .questions {
+        padding: 20px;
+    }
+    
+    .find-images__map {
+        display: none;
+    }
+
+    .find-images {
+        padding-top: 20px;
+    }
+
+    .find-area {
+        padding: 20px 0px 20px 40px;
+    }
+
+    .find-title {
+        padding: 20px 0px 20px 40px;
+    }
+
+    .blog {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .connect {
+        padding: 0;
+
+        &-info {
+            padding: 0px 20px;
+        }
+    }
+
+    .footer {
+        padding: 20px 0px;
+    }
+
+    .auto {
+        padding: 110px;
+    }
+
+    .diagnostics {
+        padding: 20px;
+    }
+
+    .how {
+        padding: 20px;
+    }
+
+    .our {
+        padding: 0px;
+    }
+
+    .final-blog {
+        padding: 20px 300px;
+    }
+
+    .offer {
+        padding: 20px;
+    }
+
+    .buy {
+        padding: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1320px) {
+    .welcome {
+        padding-left: 20px;
+    }
+    
+    .header-image {
+        padding-right: 110px;
+    }
+
+    .process {
+        flex-direction: column;
+        margin: 0;
+        justify-content: space-between;
+    }
+
+    .process-learn, .process-steps {
+        padding-left: 40px;
+        margin: 0 auto;
+    
+        &__button {
+            margin-bottom: 30px;
+            
+        }
+    }
+
+    .auto-article-subtext {
+        margin-bottom: 30px;
+    }
+
+    .indicators {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .comments {
+        padding: 20px;
+
+        &-card {
+            flex-direction: column;
+        }
+    }
+
+    .auto {
+        padding: 30px;
+
+        &-nav {
+            padding-right: 30px;
+        }
+
+        &-title {
+            padding-bottom: 20px;
+        }
+    }
+
+    .questions {
+        padding: 20px;
+    }
+
+    .indicators {
+        padding: 20px;
+    }
+
+    .attitude-content {
+        padding: 0px 20px;
+    }
+
+    .footer-image {
+        padding-right: 20px;
+    }
+
+    .comments-card-shell {
+        margin-bottom: 20px;
+    }
+
+    .welcome-banner-rating, .welcome-banner-service {
+        display: none;
+    }
+
+    .diagnostics-content {
+        flex-direction: column;
+    }
+
+    .diagnostics-link-row {
+        justify-content: space-evenly;
+        padding: 15px;
+    }
+
+    .our-content__image {
+        display: none;
+    }
+
+    .final-blog {
+        padding: 20px 200px;
+    }
+
+    .find-area {
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .find-send-button {
+        margin-bottom: 40px;
+    }
+
+    .offer-row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .buy {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .blog-content {
+        padding: 0;
+    }
+
+    .blog-bolid {
+        padding: 157px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .footer-copyright {
+        padding-left: 20px;
+    }
+
+    .connect-social {
+        padding: 10px 20px;
+    }
+
+    .comments-card-shell {
+        margin-bottom: 20px;
+    }
+
+    .attitude {
+        flex-direction: column;
+    }
+
+    .attitude-area {
+        align-self: center;
+        padding-top: 20px;
+    }
+
+    .header-image {
+        padding-right: 20px;
+    }
+
+    .auto-content {
+        flex-direction: column-reverse;
+    }
+
+    .auto-other {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .how-worked {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .how-worked-content {
+        padding: 20px 10px 30px 10px;
+    }
+
+    .how-diagnose {
+        flex-direction: column;
+    }
+
+    .how-diagnose-images {
+        padding: 0px;
+        padding-left: 30px;
+    }
+
+    .how-diagnose-content {
+        align-self: center;
+        text-align: center;
+    }
+
+    .how-diagnose-subtitle {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .final-blog {
+        padding: 20px 100px;
+    }
+
+    .final-blog-uptitle {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .service {
+        padding: 20px 0px;
+    }
+
+    .process {
+        padding: 20px 0px;
+    }
+
+    .header-phone {
+        display: none;
+    }
+
+    .footer-copyright {
+        display: none;
+    }
+
+    .welcome {
+        padding: 20px 20px;
+    }
+
+    .welcome-title {
+        font-size: 40px;
+        font-weight: $font-weight-bold;
+        line-height: 54px;
+    }
+
+    .how-worked-images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .how-diagnose {
+        flex-direction: column;
+    }
+
+    .find-send__input {
+        width: 405px;
+    }
+    
+    .find-area, .find-title {
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .welcome {
+        flex-direction: column;
+    }
+
+    .welcome-info {
+        max-width: 400px;
+        align-items: flex-start;
+    }
+    
+    .service {
+        padding: 20px 0px;
+    }
+
+    .header-list {
+        display: none;
+    }
+
+    .header {
+        justify-content: space-between;
+    }
+
+    .header-image {
+        padding-left: 20px
+    }
+
+    .welcome-banner {
+        padding: 0px;
+    }
+
+    .welcome-title {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 34px;
+    }
+
+    .attitude {
+        padding-top: 20px;
+    }
+
+    .attitude-area-area__textarea {
+        width: 400px;
+    }
+
+    .footer-list {
+        display: none;
+    }
+
+    .footer {
+        padding-left: 20px;
+        justify-content: space-between;
+    }
+
+    .connect-social__title {
+        font-size: 40px;
+    }
+
+    .attitude-title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .final-blog {
+        padding: 10px 50px;
+    }
+
+    .find-send {
+        padding: 0px;
+    }
+
+    .blog-bolid {
+        padding: 60px;
+    }
+
+    .buy-suggestions {
+        padding-left: 5px;
+    }
+
+    .buy-suggestions-text__title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .mobile {
+        display: none;
+    }
+
+    .menu-item {
+        display: none;
+    }
+}

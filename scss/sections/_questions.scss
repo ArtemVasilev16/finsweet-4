@@ -1,0 +1,41 @@
+@import "../veriables";
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 128px 515px;
+    background: #E2E6E9;
+
+    &-title {
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 140%;
+        padding-bottom: 95px;
+    }
+
+    &-answers {
+        background: $color-white;
+        padding: 40px;
+        text-align: left;
+        margin-bottom: 12px;
+
+        &-question {
+            display: flex;
+            position: relative;
+            justify-content: space-between;
+            align-items: center;
+
+            &__subtitle {
+                font-weight: $font-weight-semibold;
+                font-size: 24px;
+                line-height: 36px;
+            }
+
+            &__icon {
+                background: $color-orange;
+                padding: 17px;
+            }
+        }
+    }
+}

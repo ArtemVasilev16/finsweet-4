@@ -1,0 +1,63 @@
+@import "../veriables";
+
+.blog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &-bolid {
+        background-image: url(/images/bolide.png);
+        padding: 269px 290px;
+
+        &-text {
+            font-weight: 800;
+            font-size: 64px;
+            line-height: 84px;
+            color: $color-white;
+            width: 290px;
+        }
+    }
+
+    &-content {
+        background-color: #1E1B1B;
+        color: $color-white;
+        padding: 131px 382px 131px 64px;
+
+        &-uptitle {
+            font-weight: $font-weight-medium;
+            font-size: $font-size-verysmall;
+            line-height: 28px;
+            color: $color-orange;
+        }
+
+        &-title {
+            font-weight: $font-weight-bold;
+            font-size: $font-size-big;
+            line-height: 140%;
+            max-width: 592px;
+            padding: 16px 0px;
+        }
+
+        &-subtitle {
+            font-weight: $font-weight-semibold;
+            font-size: 18px;
+            line-height: 175%;
+            max-width: 604px;
+        }
+
+        &-more {
+            padding-top: 48px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            &__button {
+                @include button-orange
+            }
+
+            &__text {
+                padding-left: 32px;
+            }
+        }
+    }
+}

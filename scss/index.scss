@@ -1,0 +1,40 @@
+@import "veriables";
+@import "sections/header";
+@import "sections/footer";
+@import "sections/connect";
+@import "sections/contact";
+@import "sections/welcome";
+@import "sections/attitude";
+@import "sections/process";
+@import "sections/service";
+@import "sections/indicators";
+@import "sections/brands";
+@import "sections/comments";
+@import "sections/questions";
+@import "sections/our";
+@import "sections/diagnostics";
+@import "sections/how";
+@import "sections/auto";
+@import "sections/term";
+@import "sections/provide";
+@import "sections/benefits";
+@import "sections/team";
+@import "sections/find";
+@import "sections/blog";
+@import "sections/buy";
+@import "sections/offer";
+@import "sections/final";
+@import "media";
+
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    color: $color-black;
+    font-family: 'Manrope', sans-serif;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+

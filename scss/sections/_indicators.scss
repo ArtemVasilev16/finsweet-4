@@ -1,0 +1,22 @@
+@import "../veriables";
+
+.indicators {
+    background: #F2F2F2;
+    padding: 48px 325px 48px 318px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &-point__title {
+        color: $color-purple;
+        font-weight: $font-weight-extrabold;
+        font-size: $font-size-h2;
+        line-height: 76px;
+    }
+
+    &-point__subtitle {
+        font-weight: $font-weight-semibold;
+        font-size: 24px;
+        line-height: 36px;
+    }
+}

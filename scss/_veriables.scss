@@ -1,0 +1,43 @@
+//color//
+$color-black: black;
+$color-white: #ffffff;
+$color-lightgrey: #F2F2F2;
+$color-steelgray: #E2E6E9;
+$color-mint: #00D289;
+$color-purple: #661CE7;
+$color-orange: #FF6433;
+//font-size//
+$font-size-verysmall: 16px;
+$font-size-small: 20px;
+$font-size-medium: 32px;
+$font-size-big: 40px;
+$font-size-h3: 48px;
+$font-size-h2: 58px;
+$font-size-h1: 64px;
+//font-weight//
+$font-weight-light: 300px;
+$font-weight-normal: 400px;
+$font-weight-medium: 500px;
+$font-weight-semibold: 600px;
+$font-weight-bold: 700px;
+$font-weight-extrabold: 800px;
+
+
+@mixin button-orange {
+    background: $color-orange;
+    border-radius: 12px;
+    padding: 16px 40px;
+    color: $color-white;
+    border: none;
+    cursor: pointer;
+  }
+
+@mixin button-black {
+    background: $color-black;
+    border-radius: 12px;
+    padding: 16px 40px;
+    color: $color-white;
+    border: none;
+    cursor: pointer;
+  }
+

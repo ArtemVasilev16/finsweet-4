@@ -1,0 +1,48 @@
+@import "../veriables";
+
+.benefits {
+    padding: 128px 320px;
+    text-align: center;
+    background: #F2F2F2;
+
+    &-title {
+        font-weight: $font-weight-extrabold;
+        font-size: $font-size-h2;
+        line-height: 76px;
+        padding-bottom: 64px;
+        max-width: 861px;
+        padding-left: 200px;
+    }
+
+    &-row {
+        display: flex;
+    }
+
+    &-card {
+        background: #FFFFFF;
+        border: 1px solid #EBEBEB;
+        box-sizing: border-box;
+        box-shadow: 11px 130px 100px 30px rgba(0, 0, 0, 0.02);
+        padding: 88px 50px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+        &__image {
+            max-width: 64px;
+            width: 100%;
+        }
+
+        &__title {
+            font-weight: $font-weight-bold;
+            font-size: $font-size-medium;
+            line-height: 48px;
+            padding-top: 24px;
+            padding-bottom: 16px;
+        }
+
+        &__subtitle {
+            max-width: 275px;
+        }
+    }
+}
